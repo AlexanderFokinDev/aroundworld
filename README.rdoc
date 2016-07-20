@@ -1,28 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+== ОПИСАНИЕ
 
-Things you may want to cover:
+Web-приложение "Around World" показывает список стран (и городов, входящих в них), которые посетил пользователь.
+Каждый пользователь может менять только свои списки.
 
-* Ruby version
+В будущем будут добавлены функции:
+* сравнения посещенных стран и городов между пользователя.
+* отображение посещенных мест на картах Google.
 
-* System dependencies
+== ДЛЯ РАЗРАБОТЧИКОВ
 
-* Configuration
+В качестве базы данных используется MongoDB.
 
-* Database creation
+Приложение состоит из трех моделей:
+User
+Country
+City
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
